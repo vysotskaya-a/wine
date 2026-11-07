@@ -1,0 +1,22 @@
+{
+  "threshold": 0.28654953755693385,
+  "features": [
+    "fixed_acidity",
+    "volatile_acidity",
+    "citric_acid",
+    "residual_sugar",
+    "chlorides",
+    "free_sulfur_dioxide",
+    "total_sulfur_dioxide",
+    "density",
+    "pH",
+    "sulphates",
+    "alcohol",
+    "is_red"
+  ],
+  "model": "StandardScaler + LogisticRegression",
+  "selection": "validation F1",
+  "random_state": 42,
+  "python_version": "3.12.3",
+  "sklearn_version": "1.7.2"
+}
